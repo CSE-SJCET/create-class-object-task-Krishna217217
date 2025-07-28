@@ -1,2 +1,28 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+public class Student {
+    String name;
+    int rollNumber;
+    char grade;
+
+  
+    public void displayDetails() {
+        System.out.println("Student Name: " + name);
+        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Grade: " + grade);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        
+        Student student1 = new Student();
+
+       
+        student1.name = "John Doe";
+        student1.rollNumber = 123;
+        student1.grade = 'A';
+
+      
+        student1.displayDetails();
+    }
+}
